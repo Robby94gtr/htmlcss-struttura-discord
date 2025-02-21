@@ -51,6 +51,12 @@ header{
     border-width: thin;
 }
 
+.white-border{
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+    border-width: thin;
+}
+
 /* main */
 
 /* first section */
@@ -124,3 +130,34 @@ header{
     display: flex;
     height: 900px;
 }
+
+/* 3rd section */
+
+
+.container-dark-grey{
+    background-color: rgb(63, 63, 63);
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+}
+
+.container-squares{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: max-content;
+}
+.square-small-pink{
+    background-color: pink;
+    height: 630px;
+    width: 40%;
+}
+
+.square-small-blue{
+    background-color: rgb(117, 140, 255);
+    height: 630px;
+    width: 20%;
+}
+
