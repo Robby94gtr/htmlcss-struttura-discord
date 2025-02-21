@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+ .fix-width{
+    width: 1920px;
+ }
 /* header */
 
 header{
@@ -109,12 +111,6 @@ header{
 
 .container-grey{
     background-color: lightgrey;
-    /* height: 600px;
-    align-content: center;
-    /* max-width: 1200px; */
-   /* display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto; */
 }
 
 .larger-height{
@@ -160,4 +156,36 @@ header{
     height: 630px;
     width: 20%;
 }
+
+/* Main End */
+
+/* Footer */
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    margin: 1px 0px;
+    height: 105px;
+    background-color: rgb(63, 63, 63);
+    flex-wrap: wrap-reverse;
+}
+
+.square-footer{
+    background-color: aqua;
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-footer, .bottone-footer{
+    width: 70px; 
+    height: 35px;
+    background-color: pink;
+    text-align: center;
+    padding: 8px;
+   
+}
+
 
